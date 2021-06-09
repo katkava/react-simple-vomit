@@ -1,6 +1,6 @@
 //App.js is our global component, everything needs to go inside of it 
 import React, { Component } from 'react';
-// {Component} -> destructuring stuff 
+// {Component} -> destructuring stuff, taking the component out of React using destructuring 
 import './App.css';
 //components that we need to import, not vomit way would be to create a new folder and putting these 4 things below into a components folder below. 
 import Header from './Header';
@@ -10,7 +10,8 @@ import Footer from './Footer';
 
 // class-based way of writing component, creating another component 
 class App extends Component {
-// rendering stuff 
+// rendering stuff
+//all the components and etc go inside of the render method. 
   render() {
     return (
       //we're passing in header, sectionMain, aside and footer components into App. 

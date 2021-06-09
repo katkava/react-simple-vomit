@@ -23,6 +23,7 @@ class Header extends Component {
 }
 
 export default Header;
+//exporting our Header to be reused 
 
 
 //document.querySelector("header").style.backgroundColor = "red"
