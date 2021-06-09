@@ -7,7 +7,7 @@ import registerServiceWorker from './registerServiceWorker';
 
 // importing packages and setting up environment for react 
 
-
+//using ReactDOM to actually render the component. 
 ReactDOM.render(<App />, document.getElementById('root'));
 //this will run our App, our App is getting passed in into the root element 
 registerServiceWorker();
